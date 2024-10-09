@@ -270,7 +270,7 @@ const Home = () => {
             <>
               <h2 className="text-2xl font-bold mb-2">{selectedNote.title}</h2>
               <textarea
-                className="w-full h-64 p-2 border-2 border-gray-400 rounded"
+                className="w-full h-64 p-2 bg-yellow-50 border-2 border-gray-400 rounded-xl shadow-lg shadow-gray-800"
                 value={selectedNote.content}
                 onChange={(e) => {
                   if (selectedNote) {
